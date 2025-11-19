@@ -1,6 +1,5 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-
 import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
@@ -58,16 +57,6 @@ const Hero = () => {
               className="md:w-80 md:h-16 w-60 h-12"
               id="counter"
             />
-
-            <div className="md:w-80 md:h-16 w-60 h-12 text-2xl text-center">
-              <a
-                href="https://white-lottie-20.tiiny.site/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-purple-300 text-black text-2xl w-full py-2 rounded-2xl mt-6 hover:bg-gray-500 transition-all">
-                VIEW MY RESUME
-              </a>
-            </div>
           </div>
         </header>
 

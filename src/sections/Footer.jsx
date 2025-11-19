@@ -25,6 +25,7 @@ const Footer = () => {
             © {new Date().getFullYear()} Anand Patil. All rights reserved.
           </p>
         </div>
+        
       </div>
     </footer>
   );
